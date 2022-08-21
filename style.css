@@ -1,0 +1,86 @@
+.container-fluid{
+    height:100vh;
+}
+
+body,html{
+    --green_color:#00AD7F;
+}
+
+.bg-color{
+    background-color: var(--green_color);
+}
+
+.t-shadow{
+    text-shadow: 2px 2px 3px #303333;
+}
+
+.text-color{
+    color: #A7EBDE;
+    font-size: 14px;
+}
+
+.sign_in-link{
+    border:2px solid white;
+    border-radius: 30px;
+    padding: 15px 70px;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.padding{
+    padding:100px 50px 0px 30px;
+}
+
+.fu-padding{
+    padding-left: 30px
+}
+
+.create-text{
+    color:var(--green_color);
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+.icons{
+    font-size: 1.5rem;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    margin-inline: 1rem;
+}
+
+.text{
+    color:#ababab;
+    font-size: 13px;
+}
+
+form {
+    width: 90%
+}
+
+form[name="signup-form"] input{
+    background-color: #ecf8e8;
+    border: none;
+    margin-block: 1rem;
+    padding: .5rem;
+    padding-left: 3rem;
+    border-radius: 3px;
+    width: 90%;
+}
+
+
+.icon1{
+    position: relative;
+    left: 40px;
+    color:grey;
+}
+
+form[name="signup-form"] button{
+    background-color: #00ac7f;
+    padding: 1rem 4rem;
+    border:1px solid #00ac7f;
+    color:white;
+    border-radius: 27px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
